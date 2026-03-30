@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Grant Stotts">
+    <meta name="description" content="The homepage for the official website for the band you love!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="skywave3.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Skywave Official Website: Merch</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <img src="images/logo.png" alt="Skywave Logo" width="100" height="100">
+        <span>Skywave Official Website</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="tour4.html">Tour</a></li>
+            <li><a href="gallery2.html">Gallery</a></li>
+            <li class="active"><a href="merch2.html">Merch</a></li>
+        </ul>
+
+
+    </nav>
+
+    <!-- start the main content -->
+    <main>
+        
+        <h1>Merch</h1>
+
+        
+        <form method="get" class="myForm" action="thanks2.html">
+        
+        <fieldset>
+       <legend>Purchase Item</legend>
+           
+        <label><input type="radio" name="method" value="drone">T Shirt</label>
+           <label><input type="radio" name="method" value="cycle">CD Pack</label>
+           <label><input type="radio" name="method" value="robot">Hat</label>
+       </fieldset>
+
+
+       <fieldset>
+       <legend>Merch Pack</legend>
+            <p>
+            (A complimentary merch pack is sent with your first purchase, choose what you would like it to include?):
+           </p>
+           <label><input type="checkbox" name="porch" value="chosen"> Sticker Set</label>
+           <label><input type="checkbox" name="deck" value="chosen"> Tiny Vinyl</label>
+           <label><input type="checkbox" name="driveway" value="chosen"> Thank You Card</label>
+           <label><input type="checkbox" name="garage" value="chosen"> Embroidered Patch</label>
+
+
+           <label>
+           <select name="style">
+           <option value="none">What Color Style?</option>
+           <option value="ocean_blue">Ocean Blue</option>
+           <option value="sky_blue">Sky Blue</option>
+           <option value="sea_foam_green">Sea Foam Green</option>
+           <option value="sunset_gold">Sunset Gold</option>
+           </select>
+           </label>
+        </fieldset>
+
+
+
+
+       <fieldset>
+       <legend>Customer Information</legend>
+       <label>First Name*<input type="text" name="fname" required></label>
+       <label>Last Name*<input type="text" name="lname" required></label>
+       <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+       </fieldset>
+
+
+       
+
+
+       <label>
+           <textarea name="comments">Please add any special instructions</textarea>
+
+
+
+
+       </label>
+
+
+       <input type="submit" value="Place Order">
+       </form>  
+
+        
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2026 &bull; Grant Stotts &bull; Web Developement</p>
+    </footer>
+
+
+</body>
+
+</html>
